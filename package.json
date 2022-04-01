@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "xo": "^0.48.0"
+  },
+  "xo": {
+    "esnext": true,
+    "space": false,
+    "semicolon": true,
+    "rules": {
+      "no-alert": 0,
+      "unicorn/string-content": 0,
+      "unicorn/prevent-abbreviations": 1,
+      "unicorn/no-array-for-each": 0,
+      "unicorn/prefer-ternary": 0,
+      "eslint-comments/no-unused-disable": 0,
+      "capitalized-comments": 0,
+      "yoda": 1,
+      "unicorn/prefer-module": 0
+    },
+    "envs": [
+      "browser"
+    ]
+  }
+}
